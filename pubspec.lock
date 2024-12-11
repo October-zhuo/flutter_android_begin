@@ -86,7 +86,7 @@ packages:
   flutter_unity_widget:
     dependency: "direct main"
     description:
-      path: "modules/flutter-unity-view-widget"
+      path: "modules/flutter-unity"
       relative: true
     source: path
     version: "2022.2.1"
