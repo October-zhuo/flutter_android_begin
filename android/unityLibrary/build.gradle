@@ -10,10 +10,11 @@ android {
     namespace = "com.unity3d.player"
     compileSdkVersion 34
     buildToolsVersion '30.0.2'
+    ndkVersion = "21.3.6528147"
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     defaultConfig {
